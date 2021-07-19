@@ -1,0 +1,103 @@
+@import"./reset.css";
+
+body, html{
+    background-color: #EAFFD0;
+}
+
+.HomePage h2 a{
+    color: #95E1D3;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.HomePage p{
+    font-family: Apple Chancery, cursive;
+    font-size: 16px;
+}
+
+h3{
+    font-family: fantasy;
+    font-size: 18px;
+    color: #F38181;
+}
+
+.HomePage{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.HomePage .link{
+    margin-right: 20px;
+    display: inline;
+    float: left;
+}
+
+.HomePage table img{
+    margin-right: 10px;
+}
+
+.HomePage .HomePageContainer{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* border: black 2px solid; */
+}
+
+/* .HomePage .HomePageContainer ul{
+    border: solid black 2px;
+} */
+
+/* .HomePage .HomePageContainer ul li{
+    display: grid;
+    grid-auto-rows:30px;
+    grid-auto-columns: 160px;
+    float: left;
+} */
+
+.HomePage .HomePageContainer .inner-grid{
+    grid-gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-left: 40px;
+}
+
+.HomePage .HomePageContainer .inner-grid .item{
+    /* border: black 1px solid; */
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.HomePage .HomePageContainer .inner-grid a{
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.HomePage .HomePageContainer .experience table{
+    width: 100%;
+    margin-left: 40px;
+    border-collapse: collapse;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+/* .HomePage .HomePageContainer table thead{
+    color: #95E1D3;
+    background-color: #FCE38A;
+    font-size: 20px;
+} */
+
+/* .HomePage .HomePageContainer table tbody{
+    padding-right: 50px;
+} */
+
+.HomePage .HomePageContainer .skill table{
+    width: 40%;
+    margin-left: 40px;
+    border-collapse: collapse;
+    font-family: monospace;
+    font-size: 16px;
+}
+
